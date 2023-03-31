@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <span class="logo">
+                    <img src="media/netflixLogo.png" class="logo-img">
+                 </span>
+
+            </nav>
+        </header>
+        <div class="login-body">
+            <div class="login">
+                <h1>
+                    Oturum Aç
+                </h1>
+                <div class="email-box">
+                    <span>
+                        E‑posta veya telefon numarası
+                    </span>
+                    <input autocomplete="email" minlength="5" maxlength="50" type="email" name="email">
+                </div>
+                <div class="password-box">
+                    <span>
+                        Parola
+                    </span>
+                    <input id="password" type="password" name="password" autocomplete="password" placeholder="">
+                </div>
+                <button class="login-button" type="submit" autocomplete="off" onclick="window.location.href='whoswatching.html';">Oturum Aç</button>
+                <div class="remember-help">
+                    <div class="remember">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Beni hatırla</label>
+                    </div>
+                    <div class="help">
+                        <a href="#">Yardım ister misiniz?</a>
+                    </div>
+                </div>
+                    <div class="text-area">
+                            <div class="signup">
+                                Netflix'e katılmak ister misiniz?&nbsp;<a>Şimdi kaydolun</a>. 
+                            </div>
+                            <div class="recaptcha">
+                                <span>
+                                    Bu sayfa robot olmadığınızı kanıtlamak için Google reCAPTCHA tarafından korunuyor. 
+                                </span><br>
+                                
+                                <a>
+                                    Daha fazlasını öğrenin.
+                                </a>
+                            </div>
+                    </div>
+                
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
+                </p>
+                <ul>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#">Yardım Merkezi</a></li>
+                    <li><a href="#">Kullanım Koşulları</a></li>
+                    <li><a href="#">Gizlilik</a></li>
+                    <li><a href="#">Çerez Tercihleri</a></li>
+                    <li><a href="#">Kurumsal Bilgiler</a></li>
+                </ul>
+                <button>
+                    <span><img src="media/lang-button.png"></span>
+                </button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
